@@ -1,0 +1,84 @@
+.wrapper {
+  background: rgb(0, 125, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 125, 182, 1) 25%,
+    rgba(27, 4, 242, 1) 100%,
+    rgba(58, 58, 60, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.quiz-wrap-container {
+  padding: 50px 0;
+  border-radius: 10px;
+  background: #0c8ec6;
+  box-shadow: 0 0 2px 2px #41a3da;
+}
+
+.start-quiz-container {
+  text-align: center;
+}
+
+.start-quiz-container .btn {
+  color: #fff;
+}
+
+.quiz-container {
+  padding: 0 10px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.answers {
+  display: flex;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+  flex-direction: column;
+}
+
+.answers .btn {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.next-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.scoreborad-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scorebaord p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.scorebaord span {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+.play-again-btn {
+  margin-top: 30px;
+  text-align: center;
+}
